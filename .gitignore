@@ -1,0 +1,11 @@
+# Turbo
+.turbo
+
+# Dependencies
+node_modules
+
+# macOS
+.DS_Store
+
+# Build outputs
+dist/
