@@ -1,6 +1,6 @@
 # Project Overview
-You are building a web application about family medical record management called "FunLifeCare". This MVP version focuses on helping users manage their family's health records and make informed dietary decisions.
-You will be using Turbo for build orchestration, Next.js, TailwindCSS, TypeScript, React, and other tools.
+You are building a mobile and web application about family medical record management called "FunLifeCare". This MVP version focuses on helping users manage their family's health records and make informed dietary decisions.
+You will be using Turbo for build orchestration, Next.js (web), React Native (mobile), TailwindCSS, TypeScript, React, and other tools.
 
 # Core functionalities
 
@@ -59,6 +59,7 @@ Help me add a new page to the mobile application, using the code example from @i
 ```
 ├── apps/
 │   └── web/          # Next.js web application
+│   └── mobile/          # React Native mobile application
 ├── packages/
 │   ├── ui/           # Shared React component library
 │   ├── lib/          # Shared utility functions
@@ -66,9 +67,9 @@ Help me add a new page to the mobile application, using the code example from @i
 │   └── typescript-config/ # Shared TypeScript configurations
 ```
 
-- `web`: FunLifeCare app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-- `@repo/lib`: A library of utility functions shared across the monorepo
-
+- `apps/web`: FunLifeCare app
+- `apps/mobile`: FunLifeCare app
+- `packages/ui`: a stub React component library shared by both `web` and `mobile` applications
+- `packages/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `packages/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `packages/lib`: A library of utility functions shared across the monorepo
